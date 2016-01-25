@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyApp</string>
+        <string name="goals_action_add">add</string>
+        <string name="goals_action_delete">delete</string>
+        <string name="goals_confirmdialog_dialog_title">ConfirmDialog</string>
+        <string name="dreamlist_action_add">add</string>
+        <string name="dreamlist_action_search">search</string>
+        <string name="dreamlist_action_delete">delete</string>
+        <string name="dreamlist_confirmdialog_dialog_title">ConfirmDialog</string>
+        <string name="dreamlist_action_index">index</string>
+        <string name="dreamdetail_action_share">share</string>
+          <string name="data">Click on + to add a new goal or dream
+              Click on Search to select a new Dream</string>
+        
+
+
+        <string-array name="action_list">
+                <item>Goals</item>
+                <item>DreamList</item>
+                <item>About</item>
+
+        </string-array>
+        <string-array name="tabs">
+                <item>Goals</item>
+                <item>DreamList</item>
+                <item>About</item>
+
+        </string-array>
+
+</resources>

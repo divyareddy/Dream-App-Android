@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center_horizontal"
+              android:layout_margin="10dp"
+              android:orientation="vertical" >
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="GoalName"
+      android:textAppearance="?android:attr/textAppearanceMedium" />
+
+  <EditText
+      android:id="@+id/editText1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="text" >
+
+    <requestFocus />
+  </EditText>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+  </RelativeLayout>
+
+  <Button
+      android:id="@+id/setgoal_goalsId"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Set" />
+   <Button
+      android:id="@+id/cancelgoal_goalsId"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Cancel" />
+
+</LinearLayout>
